@@ -2,42 +2,52 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <title>Video Hotkeys</title>
     </head>
     <body>
         <div id="popup-content">
             <h1>Video Hotkeys</h1>
             <p class="subtitle">Keyboard shortcuts for video control</p>
             
-            <div class="settings-group">
-                <div class="setting-item">
-                    <div class="setting-info">
-                        <span class="setting-icon">⏯️</span>
-                        <div class="setting-label">
-                            <label for="spaceInput">Play/Pause</label>
-                            <span class="key">Space</span>
-                        </div>
-                    </div>
-                    <div class="toggle-switch">
-                        <input id="spaceInput" type="checkbox" />
-                        <span class="toggle-slider"></span>
+            <div class="setting-item">
+                <div class="setting-info">
+                    <span>⏯️</span>
+                    <div class="setting-label">
+                        <label for="spaceInput">Play/Pause</label>
+                        <span class="key">Space</span>
                     </div>
                 </div>
-                
-                <div class="setting-item">
-                    <div class="setting-info">
-                        <span class="setting-icon">🔇</span>
-                        <div class="setting-label">
-                            <label for="muteInput">Mute/Unmute</label>
-                            <span class="key">M</span>
-                        </div>
+                <div class="toggle-switch">
+                    <input id="spaceInput" type="checkbox" />
+                    <span class="toggle-slider"></span>
+                </div>
+            </div>
+            
+            <div class="setting-item">
+                <div class="setting-info">
+                    <span>🔇</span>
+                    <div class="setting-label">
+                        <label for="muteInput">Mute/Unmute</label>
+                        <span class="key">M</span>
                     </div>
-                    <div class="toggle-switch">
-                        <input id="muteInput" type="checkbox" />
-                        <span class="toggle-slider"></span>
+                </div>
+                <div class="toggle-switch">
+                    <input id="muteInput" type="checkbox" />
+                    <span class="toggle-slider"></span>
+                </div>
+            </div>
+            
+            <div class="setting-item">
+                <div class="setting-info">
+                    <span>⏪</span>
+                    <div class="setting-label">
+                        <label for="arrowInput">Skip 5s</label>
+                        <span class="key">← →</span>
                     </div>
+                </div>
+                <div class="toggle-switch">
+                    <input id="arrowInput" type="checkbox" />
+                    <span class="toggle-slider"></span>
                 </div>
             </div>
         </div>
