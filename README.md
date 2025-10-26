@@ -1,8 +1,30 @@
-# Video.js Spacebar Fix (Firefox Extension)
-This Firefox-Extensoin fixes the missing hotkey for toggling Play/Pause on Video.js Plugins.
+# Video Hotkeys
 
-### Installation
-1. Download the folder
-2. Open Firefox and got to: `about:debugging#/runtime/this-firefox`
-3. Click: **"Load Temporary addon..."**
-4. Open the downloaded folder and choose `manifest.json`
+Firefox extension that adds keyboard shortcuts for Video.js players.
+
+## Shortcuts
+
+- **Space** - Play/Pause
+- **M** - Mute/Unmute
+
+Toggle shortcuts on/off via the extension popup.
+
+## Installation
+
+1. Clone this repo
+2. Go to `about:debugging#/runtime/this-firefox`
+3. Click "Load Temporary Add-on"
+4. Select `manifest.json`
+
+## Development
+
+```
+video-hotkeys/
+├── manifest.json
+├── addHotkeys.js
+├── icons/
+└── popup/
+    ├── index.html
+    ├── index.js
+    └── style.css
+```
