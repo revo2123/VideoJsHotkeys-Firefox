@@ -1,5 +1,5 @@
 # Video Hotkeys
-
+Available at: https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/  
 Firefox extension that adds keyboard shortcuts for Video.js players.
 
 ## Shortcuts
