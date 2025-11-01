@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
+        <script src="../browser-compat.js"></script>
     </head>
     <body>
         <div id="popup-content">
@@ -47,6 +48,34 @@
                 </div>
                 <div class="toggle-switch">
                     <input id="arrowInput" type="checkbox" />
+                    <span class="toggle-slider"></span>
+                </div>
+            </div>
+            
+            <div class="setting-item">
+                <div class="setting-info">
+                    <span>🔊</span>
+                    <div class="setting-label">
+                        <label for="volumeInput">Volume Control</label>
+                        <span class="key">↑ ↓</span>
+                    </div>
+                </div>
+                <div class="toggle-switch">
+                    <input id="volumeInput" type="checkbox" />
+                    <span class="toggle-slider"></span>
+                </div>
+            </div>
+            
+            <div class="setting-item">
+                <div class="setting-info">
+                    <span>⛶</span>
+                    <div class="setting-label">
+                        <label for="fullscreenInput">Toggle Fullscreen</label>
+                        <span class="key">F</span>
+                    </div>
+                </div>
+                <div class="toggle-switch">
+                    <input id="fullscreenInput" type="checkbox" />
                     <span class="toggle-slider"></span>
                 </div>
             </div>
