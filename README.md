@@ -25,27 +25,21 @@ A cross-browser browser extension that adds keyboard shortcuts for Video.js play
 
 > 💡 **Tip:** You can toggle any shortcut on or off through the extension popup menu.
 
-## 🌐 Browser Compatibility
+## 🌐 Browser Compatibility / Installation
 
-| Browser | Status | Notes |
+| Browser | Status | Install |
 |---------|--------|-------|
-| Firefox | ✅ Fully Supported | Native `browser.*` API support |
-| Chrome | ✅ Fully Supported | Uses compatibility layer |
-| Edge | ✅ Fully Supported | Uses compatibility layer |
-| Brave | ✅ Fully Supported | Uses compatibility layer |
-| Opera | ✅ Fully Supported | Uses compatibility layer |
-| Safari | ✅ Supported | Native `browser.*` API support |
+| Firefox | ✅ Fully Supported | [Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/) |
+| Chrome | ✅ Fully Supported | [Chrome Web Store](https://chromewebstore.google.com/detail/video-hotkeys/degmeklcmnopeagmbokpimdbjnohlghp?authuser=0&hl=de) |
+| Edge | ✅ Fully Supported | Not yet available, install manually |
+| Brave | ✅ Fully Supported | Not yet available, install manually |
+| Opera | ✅ Fully Supported | Not yet available, install manually |
+| Safari | ✅ Supported | Not yet available, install manually |
 
-## 📦 Installation
-
-### From Browser Stores (Recommended)
-
-- **Firefox:** [Install from Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/)
-- **Chrome/Edge/Brave:** Coming soon to Chrome Web Store
 
 ## 🚀 Usage
 
-1. **Install the extension** using one of the methods above
+1. **Install the extension** by downloading from the store or manually installing
 2. **Navigate to any website** with a Video.js player
 3. **Press the keyboard shortcuts** - they work automatically!
 4. **Customize settings** by clicking the extension icon in your browser toolbar
@@ -107,7 +101,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Issues:** [GitHub Issues](https://github.com/revo2123/VideoJsHotkeys-Extension/issues)
-- **Firefox Add-on Page:** [View on AMO](https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/)
 
 ---
 
