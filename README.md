@@ -3,7 +3,7 @@
 A cross-browser browser extension that adds keyboard shortcuts for Video.js players. Enhance your video watching experience with customizable hotkeys for play/pause, volume control, seeking, and more.
 
 [![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-orange?logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chromewebstore.google.com/detail/video-hotkeys/degmeklcmnopeagmbokpimdbjnohlghp?authuser=0&hl=de)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version)
 
 ## ✨ Features
