@@ -5,13 +5,7 @@ A cross-browser browser extension that adds keyboard shortcuts for Video.js play
 [![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-orange?logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version)
-
-## ✨ Features
-
-- **Customizable Hotkeys** - Enable or disable any keyboard shortcut via the extension popup
-- **Cross-Browser Support** - Works on Firefox, Chrome, Edge, Brave, and Safari
-- **Smart Input Handling** - Automatically ignores keyboard input when typing in text fields
-- **Persistent Settings** - Your preferences are saved and synced across browser sessions
+[![PayPal Donate](https://img.shields.io/badge/PayPal-Donate%20%F0%9F%92%99-00457C?logo=paypal&logoColor=white)](https://www.paypal.me/revodev1)
 
 ## ⌨️ Keyboard Shortcuts
 
@@ -35,7 +29,6 @@ A cross-browser browser extension that adds keyboard shortcuts for Video.js play
 | Brave | ✅ Fully Supported | Not yet available, install manually |
 | Opera | ✅ Fully Supported | Not yet available, install manually |
 | Safari | ✅ Supported | Not yet available, install manually |
-
 
 ## 🚀 Usage
 
@@ -68,24 +61,6 @@ VideoJsHotkeys-Firefox/
 ### Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📝 Technical Details
-
-- **Manifest Version:** 3
-- **Permissions:** `storage` (for saving user preferences)
-- **Content Scripts:** Injected on all URLs (`<all_urls>`)
-- **Storage:** Uses `browser.storage.local` API (compatible across browsers)
-
-### API Compatibility
-
-The extension includes a compatibility layer (`browser-compat.js`) that automatically detects the browser environment:
-- **Firefox/Safari:** Uses native `browser.*` API
-- **Chromium browsers:** Converts `chrome.*` API to `browser.*` format with Promise wrapping
-
-## 🐛 Known Issues & Limitations
-
-- Hotkeys only work on pages with Video.js players detected by the selector `video.video-js, .video-js video`
-- Some websites may have their own keyboard handlers that could conflict
 
 ## 📄 License
 
