@@ -25,10 +25,12 @@ A cross-browser browser extension that adds keyboard shortcuts for Video.js play
 |---------|--------|-------|
 | Firefox | ✅ Fully Supported | [Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/videojs-hotkeys/) |
 | Chrome | ✅ Fully Supported | [Chrome Web Store](https://chromewebstore.google.com/detail/video-hotkeys/degmeklcmnopeagmbokpimdbjnohlghp?authuser=0&hl=de) |
-| Edge | ✅ Fully Supported | Not yet available, install manually |
-| Brave | ✅ Fully Supported | Not yet available, install manually |
-| Opera | ✅ Fully Supported | Not yet available, install manually |
+| Edge | ✅ Fully Supported | Install via [Chrome Web Store](https://chromewebstore.google.com/detail/video-hotkeys/degmeklcmnopeagmbokpimdbjnohlghp?authuser=0&hl=de) |
+| Brave | ✅ Fully Supported | Install via [Chrome Web Store](https://chromewebstore.google.com/detail/video-hotkeys/degmeklcmnopeagmbokpimdbjnohlghp?authuser=0&hl=de) |
+| Opera | ✅ Fully Supported | Follow [Install Chrome Extensions on Opera](https://blogs.opera.com/tips-and-tricks/2021/10/using-addons-from-chrome-in-opera/), afterwards install via [Chrome Web Store](https://chromewebstore.google.com/detail/video-hotkeys/degmeklcmnopeagmbokpimdbjnohlghp?authuser=0&hl=de) |
 | Safari | ✅ Supported | Not yet available, install manually |
+
+Should work wihtout any changes for all Gecko and Chromium-based browsers.
 
 ## 🚀 Usage
 
